@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhub/node-app"
+        IMAGE_NAME = "mohiturkude8237/node-app"
         IMAGE_TAG = "v${BUILD_NUMBER}"
     }
 
